@@ -587,6 +587,7 @@ namespace dpct
         Use 64 bits as memory_bus_width default value."
 #endif
 
+
         size_t max_sub_group_size = 1;
         std::vector<size_t> sub_group_sizes =
             dev.get_info<sycl::info::device::sub_group_sizes>();
